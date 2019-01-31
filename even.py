@@ -1,4 +1,4 @@
-a=int(raw_input())
+a=int()
 if(a%2==0):
 	print("Even")
 elif(a<0):
