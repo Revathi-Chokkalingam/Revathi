@@ -1,3 +1,3 @@
-num=input()
-num=len(num)
-print (num)
+ipt=input()
+ipt=len(ipt)
+print (ipt)
