@@ -1,0 +1,6 @@
+z=input()
+s=z.split()
+m=int(s[0])
+p=int(s[1])
+exp=(m**p)
+print(exp)
