@@ -11,7 +11,7 @@ for(i=n;i<m;i++)
 	if(i%j==0)
 	count++;
 	}
-	if(count==0)
+	if(count==+0)
 	printf("%d\t",i);
 }
 return 0;
