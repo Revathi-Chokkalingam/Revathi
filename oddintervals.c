@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	int a,b,z;
+	int a,b,odd;
 	scanf("%d%d",&a,&b);
-	for(z=a+1;z<=b;z++)
+	for(odd=a+1;odd<=b;odd++)
 	{
-	if(z%2!=0)
-            printf("%d ",z);
+	if(odd%2!=0)
+            printf("%d ",odd);
 	}
 	return 0;
 }
