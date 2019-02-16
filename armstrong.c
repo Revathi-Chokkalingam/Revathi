@@ -14,6 +14,6 @@ for(j=0;p!=0;j++)
      
      }
      if(sum==i)
-     printf("%d\n",sum);
+     printf("%d\t",sum);
 
 }
