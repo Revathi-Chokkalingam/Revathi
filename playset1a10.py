@@ -1,9 +1,9 @@
-var1,var2=input().split()
-c=0
-for i in range(len(s1)):
-  if var1[i]!=var2[i]:
-    c+=1
-if c==1:
-  print("yes")
+a,k=map(str,input().split(" "))
+count=0
+for i in range(0,len(a)):
+	if a[i]!=k[i]:
+		count=count+1
+if count>1:
+	print("no")
 else:
-  print("no")
+	print("yes")
