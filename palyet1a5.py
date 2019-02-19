@@ -1,9 +1,9 @@
-a=input()
-b = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-c = 0
-for i in range(len(a)):
-	if i > 0 and b[a[i]] > b[a[i - 1]]:
-		c = c+ b[a[i]] - 2 * b[a[i - 1]]
+var1=input()
+var2 = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+var3 = 0
+for i in range(len(var1)):
+	if i > 0 and var2[var1[i]] > var2[var1[i - 1]]:
+		var3 = var3+ var2[var1[i]] - 2 * var2[var1[i - 1]]
 	else:
-		c = c+ b[a[i]]
-print (c)
+		var3 = var3+ var2[var1[i]]
+print (var3)
