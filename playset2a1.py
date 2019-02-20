@@ -1,5 +1,7 @@
-day=input()
-if day=="saturday" or day=="sunday":
+week1=["Monday","Tuesday","Wednesday","Thursday","Friday"]
+weekend1=["Saturday","Sunday"]
+string=input()
+if string in weekend1:
 	print("yes")
-elif day=="monday" or day=="tuesday" or day=="wednesday"  or day=="thrusday" or day=="friday":
+else:
 	print("no")
