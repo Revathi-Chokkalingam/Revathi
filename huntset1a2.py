@@ -1,0 +1,10 @@
+x1=int(input())
+y=input().split()
+y.sort()
+zu=0
+za=len(y)
+while(za>0):
+	r=int(y[za-1])
+	zu=zu*10+r
+	za-=1
+print(zu)
