@@ -1,9 +1,13 @@
-sys=input().split()
-m=0
-for i in sys[0]:
-    if(i not in sys[1]):
-        m=m+1
-for i in sys[1]:
-    if(i not in sys[0]):
-        m=m+1
-print(m)
+a,b =map(str,input().split())
+c = 0
+c+=abs(len(b)-len(a))
+if(len(a)<=len(b)):
+	max = b
+	min = a
+else:
+	max = a
+	min = b
+for i in range(len(min)):
+	if(min[i]!=max[i]):
+		c+=1
+print(c)
