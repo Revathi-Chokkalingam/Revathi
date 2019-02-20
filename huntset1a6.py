@@ -10,4 +10,4 @@ for i in l:
         print(i)
         break
 if(f1==0):
-    print("'unique'")
+    print("unique")
