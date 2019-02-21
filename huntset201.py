@@ -1,3 +1,3 @@
 str=raw_input('')
-x=' '.join(w[::-1] for w in str.split())
-print(x)
+X=' '.join(W[::-1] for W in str.split())
+print(X)
